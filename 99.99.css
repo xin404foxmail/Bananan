@@ -1,0 +1,134 @@
+body{
+    line-height:1.7;
+    background-color: #eeeeee;
+}
+.heading{
+    height: 2.4cm;
+    width: 100%;
+    background-color:#3d444c;
+
+}
+.heading-img{
+    width: 6.63cm;
+    height: 2.4cm;
+    margin-left: 18.7%;
+    position: absolute;
+    float: left;
+    /*border-radius: 50;*/
+}
+.heading .heading-img .a{
+    border-radius: 30px;
+}
+.heading-time{
+    height: 2.4cm;
+    width: 9cm;
+    float: left;
+    margin-left: 35% ;
+    /*position: absolute;*/
+    background-color: #3d444c;
+}
+#hhid{
+        text-align: center;
+        color: snow;
+
+}
+.content{
+    background-color: #eeeeee;
+    width: 100%;
+    /*height: 1200px;*/
+}
+.content-menu{
+    background-color: #2c333b;
+    width:18.7%;
+    height: 800px;
+    float: left;
+    position: fixed;
+    padding: 20px 10px;
+}
+.logo{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 30px;
+    color: #eee;
+    text-decoration: none;
+    border: 5px solid #eee;
+    margin-bottom: 8px;
+    line-height: 1;
+}
+.intro {
+    padding: 10px 20px;
+    color: #eee;
+    text-indent: 2em;
+    font-weight: 500;
+}
+
+.nav li a{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration-line: none;
+    display: block;
+    color: #6b6b6b;
+    padding: 12px;
+    transition: color 200ms;
+}
+.nav li a:hover{
+    color: #eeeeee;
+}
+li{
+    list-style: none;
+
+}
+.content-article{
+    background-color: #ffffff;
+    width: 45.6%;
+    /*height: 999px;*/
+    margin-left: 18.7%;
+    margin-right: 2px;
+    float: left;
+    position: relative;
+    /*padding: 20px 10px;*/
+}
+.content-article-item .title a{
+    font-size: 22px;
+    padding: 15px 70px;
+    margin-bottom: 10px;
+    text-decoration-line: none;
+    display: block;
+    color: #111111;
+    transition: color 200ms;
+
+}
+.poem{
+    text-align: center;
+}
+.content-article-item .title a:hover{
+    color: #6e0c24;
+}
+.content-article-item .status{
+    /*padding: 5px 10px;*/
+    color: #7688c3;
+    text-indent: 2em;
+    margin:0 60px
+}
+.content-article-item .txt{
+    text-indent: 2em;
+    line-height: 1.7;
+    margin: 10px 4px;
+}
+.content-article-item {
+    box-shadow: 0 0 1px rgba(0,0,0,.2);
+    background-color: #ffffff;
+}
+
+.content-tag{
+    background-color: #2c333b;
+    width: 17.1%;
+    height: 400px;
+    margin-right: 260px;
+    float: right;
+    position: relative;
+}
+.characterstic a{
+    color: #eee;
+    float: right;
+}
